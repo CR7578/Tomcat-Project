@@ -1,8 +1,8 @@
 # adding repository and installing nginx		
 apt update
 apt install nginx -y
-cat <<EOT > vproapp
-upstream vproapp {
+cat <<EOT > cr7578
+upstream cr7578 {
 
  server app01:8080;
 
@@ -14,7 +14,7 @@ server {
 
 location / {
 
-  proxy_pass http://vproapp;
+  proxy_pass http://cr7578;
 
 }
 
@@ -22,9 +22,9 @@ location / {
 
 EOT
 
-mv vproapp /etc/nginx/sites-available/vproapp
+mv cr7578 /etc/nginx/sites-available/cr7578
 rm -rf /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/vproapp /etc/nginx/sites-enabled/vproapp
+ln -s /etc/nginx/sites-available/cr7578 /etc/nginx/sites-enabled/cr7578
 
 #starting nginx service and firewall
 systemctl start nginx
