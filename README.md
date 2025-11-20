@@ -36,6 +36,7 @@ vagrant up
 - default login credentials
     
     username - admin
+  
     password - cr7578
     
  
