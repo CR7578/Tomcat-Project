@@ -16,6 +16,11 @@ On Windows, use Git Bash, WSL, or an elevated shell
 
 ```bash
 git clone https://github.com/CR7578/Vagrant-tomcat-project.git
+```
+
+- change directory
+
+```bash
 cd Vagrant-Tomcat-project/vagrant
 ```
 
@@ -35,4 +40,5 @@ vagrant up
 ![Tomcat-login](/assets/tomcat-login.png)
 ![Tomcat-dashboard](/assets/tomcat-dashboard.png)
 ![Tomcat-memcached](/assets/tomcat-memcached.png)
+![Tomcat-memcached](/assets/tomcat-memcached2.png)
 ![Tomcat-rabbitmq](/assets/tomcat-rabbitmq.png)
