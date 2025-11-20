@@ -32,6 +32,12 @@ vagrant up
 
 **Access the application**
 - Open `http://web01` or `192.168.56.11` in the browser.
+
+- default login credentials
+    
+    username - admin
+    password - cr7578
+    
  
 **Note :**  if you have changed any ip address in `Vagrantfile` for web01 nginx server, use the modified ip address.
 
