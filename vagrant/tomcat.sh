@@ -52,8 +52,8 @@ unzip apache-maven-3.9.9-bin.zip
 cp -r apache-maven-3.9.9 /usr/local/maven3.9
 export MAVEN_OPTS="-Xmx512m"
 
-git clone https://github.com/CR7578/Vagrant-tomcat-project
-cd Vagrant-tomcat-project
+git clone https://github.com/CR7578/Tomcat-Project
+cd Tomcat-Project
 /usr/local/maven3.9/bin/mvn install
 systemctl stop tomcat
 sleep 20
